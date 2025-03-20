@@ -1,0 +1,20 @@
+h1{color: aquamarine;}
+figcaption{color: rgb(209, 106, 123);}
+
+.pizzaGrid{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(4,1fr);
+}
+.pizzaMenu{
+    background-color: rgb(205, 245, 186);
+}
+
+.pastaMenu{
+    body{
+        background-image: url("images/LinePizza");
+        background-color: rgb(238, 218, 129);
+        background-repeat: repeat-y;
+        background-size: cover, contain;
+    }
+}
