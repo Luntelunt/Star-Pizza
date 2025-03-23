@@ -27,6 +27,7 @@ function createPizza(element)
                     alt="${element[0].alt}" title="${element[0].title}" width="100"></a>
                 <figcaption>${element[0].caption}</figcaption>
         </figure>
+         <button onclick="klikKob()" type="button">Put i kurven</button>
     </div>
 
         <div class="number">2.</div>
@@ -39,6 +40,7 @@ function createPizza(element)
                     alt="${element[1].alt}" title="${element[1].title}" width="100"></a>
                 <figcaption>${element[1].caption}</figcaption>
         </figure>
+         <button onclick="klikKob()" type="button">Put i kurven</button>
     </div>
     
     <div class="number">3.</div>
@@ -51,6 +53,7 @@ function createPizza(element)
                     alt="${element[2].alt}" title="${element[2].title}" width="100"></a>
                 <figcaption>${element[2].caption}</figcaption>
         </figure>
+         <button onclick="klikKob()" type="button">Put i kurven</button>
     </div>
     `
 }
