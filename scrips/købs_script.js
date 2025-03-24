@@ -6,7 +6,7 @@ if (sessionStorage.clickcount) {
     sessionStorage.clickcount = 1;
 }
 document.getElementById("kurvAntal").innerHTML = sessionStorage.clickcount;
-document.getElementById("endePris").innerHTML = sessionStorage.clickcount * 120;
+document.getElementById("endePris").innerHTML = sessionStorage.clickcount * 120 + "kr";
 }
 
 function fjernKob(){
@@ -17,5 +17,5 @@ function fjernKob(){
         sessionStorage.clickcount = 1;
     }
     document.getElementById("kurvAntal").innerHTML = sessionStorage.clickcount;
-    document.getElementById("endePris").innerHTML = sessionStorage.clickcount * 120;
+    document.getElementById("endePris").innerHTML = sessionStorage.clickcount * 120 + "kr";
     }
