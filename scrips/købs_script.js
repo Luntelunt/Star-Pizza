@@ -17,4 +17,5 @@ function fjernKob(){
         sessionStorage.clickcount = 1;
     }
     document.getElementById("kurvAntal").innerHTML = sessionStorage.clickcount;
+    document.getElementById("endePris").innerHTML = sessionStorage.clickcount * 120;
     }
